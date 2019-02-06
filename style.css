@@ -854,6 +854,7 @@ img{
 .footer__align--three{
       width: 25px;
       margin: 0 auto;
+      display: inline;
       list-style: none;
       padding: 0;
     }

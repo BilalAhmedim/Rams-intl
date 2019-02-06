@@ -34,31 +34,8 @@ function nav_menu(){
 
 nav_sub__menu.forEach(elem => elem.addEventListener('click', nav_menu)); // Event Listener
 
+
+
 //////////////////////////////
 ////////End Navigation////////
 //////////////////////////////
-
-
-//////////////////////////////
-/////////// Slider ///////////
-//////////////////////////////
-
-
-//  Variables for slider
-// var
-// slider__images = document.querySelector('.slider__images'),
-// slider__images__items =  document.querySelector('.slider__images__items'),
-// slider__images__count = slider__images.childElementCount,
-// createLiElement = document.createElement('li')
-// currentIndex = 1
-// ;
-
-// function addActiveClassToRight(e){
-
-// }
-// function addActiveClassToLeft(e){
-
-// }
-// rightArrow.addEventListener('click', addActiveClass);
-// leftArrow.addEventListener('click', addActiveClass);
-// carausel.addEventListener('click', addActiveClass);

@@ -23,9 +23,9 @@
                   <h5>Rams Pages</h5>
                 </div>
                 <ul class="text-justify footer__align--one">
-                  <li><a class="active" href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a class="active" href="<?php echo get_site_url()?>">Home</a></li>
+                  <li><a href="<?php echo get_site_url().'/index.php/about'?>">About</a></li>
+                  <li><a href="<?php echo get_site_url().'/index.php/contact'?>">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -43,24 +43,24 @@
                 </div>
                 <ul class="text-justify footer__align--two">
 
-                  <li><a href="#">Bath Tubs</a></li>
-                  <li><a href="#">FarmHouse Sink</a>
+                  <li><a href="<?php echo get_site_url().'/index.php/bathtubs'?>">Bath Tubs</a></li>
+                  <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks'?>">FarmHouse Sink</a>
 
                     <ul>
-                      <li><a href="#">Single Bowl</a></li>
-                      <li><a href="#">Double Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farmhouse-single-bowl'?>">Single Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farmhouse-double-bowl'?>">Double Bowl</a></li>
                     </ul>
                   </li>
 
-                  <li><a href="#">Under Mount Sink</a>
+                  <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks'?>">Under Mount Sink</a>
                     <ul>
-                      <li><a href="#">Single Bowl</a></li>
-                      <li><a href="#">Double Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-single-bowl'?>">Single Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-double-bowl'?>">Double Bowl</a></li>
                     </ul>
                   </li>
 
-                  <li><a href="#">Basin Sinks</a></li>
-                  <li><a href="#">Pedistal</a></li>
+                  <li><a href="<?php echo get_site_url().'/index.php/basin-sinks'?>">Basin Sinks</a></li>
+                  <li><a href="<?php echo get_site_url().'/index.php/pedestal'?>">Pedistal</a></li>
 
                 </ul>
               </div>
@@ -87,6 +87,15 @@
   </div>
 
 </footer>
-<?php wp_footer()?>
+<?php
+  wp_footer();
+  if(is_admin_bar_showing()){
+    echo "
+    <script>
+    document.querySelector('.main-header').style.top = '30px'
+    </script>
+    ";
+  }
+?>
 </body>
 </html>
