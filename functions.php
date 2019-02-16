@@ -7,4 +7,12 @@ function rams_resources(){
   wp_enqueue_script('main', get_template_directory_uri()."/js/App.js", null ,"1.0" , true);
  }
 add_action('wp_enqueue_scripts','rams_resources');
+
+function ThemeSupport(){
+  add_theme_support('title-tag');
+  add_theme_support('post-thumbnails');
+  add_image_size('thumbnail-size', 500, 500);
+}
+
+add_action('after_setup_theme', 'ThemeSupport');
 ?>

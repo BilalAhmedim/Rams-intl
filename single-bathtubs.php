@@ -1,9 +1,11 @@
 <?php
   get_header();
-  while(have_posts()){
-    the_post();
-    //echo wp_get_post_parent_id(get_the_ID());
-    echo get_the_ID();
+  $customPost = new wp_query(array(
+    'post_type' => 'bathtubs'
+  ));
+  while($customPost->have_posts()){
+    $customPost->the_post();
+    echo wp_get_post_parent_id(get_the_ID());
     ?>
     <div class="<?php the_title();?>">
       <div class=<?php echo the_title().'__wrapper';?>>
