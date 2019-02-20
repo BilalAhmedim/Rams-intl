@@ -25,14 +25,14 @@
           <li><a href="<?php echo get_site_url().'/index.php/bath-tubs'?>">Bath Tubs</a></li>
           <li><a class="drop">FarmHouse Sink</a>
             <ul class="nav-menu__item__sub">
-              <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-single-bowl'?>">Single Bowl</a></li>
-              <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-Double-bowl'?>">Double Bowl</a></li>
+              <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-sinks-single-bowl'?>">Single Bowl</a></li>
+              <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-sinks-Double-bowl'?>">Double Bowl</a></li>
             </ul>
           </li>
           <li><a class="drop">UnderMount Sinks</a>
             <ul class="nav-menu__item__sub">
-              <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-single-bowl'?>">Single Bowl</a></li>
-              <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-double-bowl'?>">Double Bowl</a></li>
+              <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-sinks-single-bowl'?>">Single Bowl</a></li>
+              <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-sinks-double-bowl'?>">Double Bowl</a></li>
             </ul>
           </li>
           <li><a href="<?php echo get_site_url().'/index.php/basin-sinks'?>">Basin Sinks</a></li>

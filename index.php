@@ -61,80 +61,80 @@
       <div class="row">
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/bathtub.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/baths_.jpg"?> alt="Bath Tubs" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Bath Tubs</h5>
+              <a href="<?php echo get_site_url().'/index.php/bath-tubs'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/kitchen.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/farmhouse_single_.jpg"?> alt="Farm House Sinks Single Bowl" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Farm House Sinks Single Bowl</h5>
+              <a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-sinks-single-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/roundsinks.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/farmhouse_double_.jpg"?> alt="Farm House Sinks Double Bowl" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Farm House Sinks Double Bowl</h5>
+              <a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-sinks-Double-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/bathtub.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/undermount_single_.jpg"?> alt="Under Mount Sink Single Bowl" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Under Mount Sink Single Bowl</h5>
+              <a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-sinks-single-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/bathtub.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/undermount_double_.jpg"?> alt="Under Mount Sink Double Bowl" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Under Mount Sink Double Bowl</h5>
+              <a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-sinks-double-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/bathtub.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/basin_.jpg"?> alt="Copper Basin Sinks" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Copper Basin Sinks</h5>
+              <a href="<?php echo get_site_url().'/index.php/basin-sinks'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/bathtub.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/pedestal_.jpg"?> alt="Copper Pedestal Sinks" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
-              <a href="#">View More</a>
+              <h5>Copper Pedestal Sinks</h5>
+              <a href="<?php echo get_site_url().'/index.php/pedestal-sinks'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/bathtub.jpg"?> alt="Bath Tubs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/copper_tiles_.jpg"?> alt="Copper Tiles" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>FigCaption Header</h5>
+              <h5>Copper Tiles</h5>
               <a href="#">View More</a>
             </div>
           </figcaption>

@@ -11,7 +11,7 @@ add_action('wp_enqueue_scripts','rams_resources');
 function ThemeSupport(){
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
-  add_image_size('thumbnail-size', 500, 500);
+  add_image_size( 'custom-size', 500, 500, true);
 }
 
 add_action('after_setup_theme', 'ThemeSupport');

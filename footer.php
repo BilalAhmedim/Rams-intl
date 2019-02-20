@@ -43,19 +43,19 @@
                 </div>
                 <ul class="text-justify footer__align--two">
 
-                  <li><a href="<?php echo get_site_url().'/index.php/baths-tubs'?>">Bath Tubs</a></li>
+                  <li><a href="<?php echo get_site_url().'/index.php/bath-tubs'?>">Bath Tubs</a></li>
                   <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks'?>">FarmHouse Sink</a>
 
                     <ul>
-                      <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-single-bowl'?>">Single Bowl</a></li>
-                      <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-double-bowl'?>">Double Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-sinks-single-bowl'?>">Single Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/farm-house-sinks-double-bowl'?>">Double Bowl</a></li>
                     </ul>
                   </li>
 
                   <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks'?>">Under Mount Sink</a>
                     <ul>
-                      <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-single-bowl'?>">Single Bowl</a></li>
-                      <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-double-bowl'?>">Double Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-sinks-single-bowl'?>">Single Bowl</a></li>
+                      <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/under-mount-sinks-double-bowl'?>">Double Bowl</a></li>
                     </ul>
                   </li>
 
