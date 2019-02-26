@@ -4,7 +4,7 @@
     the_post()
     ?>
     <h1><?php the_title() ?></h1>
-    <p><?php the_content()?></p>
+    <?php the_content()?>
     <img src="<?php the_post_thumbnail_url('ThumbnailSize');?>" alt="">
     <?php
   }
