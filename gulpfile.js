@@ -33,7 +33,7 @@ gulp.task('watch', function(){
 });
 
 gulp.task('styles', function(){
-  return gulp.src(path+'/css/style.pcss')
+  return gulp.src(path+'css/style.pcss')
   .pipe(maps.init())
   .pipe(postcss([cssimport, mixin, nested, vars, hexrgba, autoprefixer]))
   .pipe(plumber())
@@ -47,6 +47,6 @@ gulp.task('styles', function(){
 });
 
 gulp.task('stream', gulp.series('styles', function(){
-  return gulp.src(path+'/style.css')
+  return gulp.src(path+'style.css')
   .pipe(sync.stream());
 }))

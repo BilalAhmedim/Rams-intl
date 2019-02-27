@@ -17,22 +17,31 @@
       </div>
     </div>
   </div>
+
   <div class="gallery-section">
-  <?php
-  while($query->have_posts()){
-    $query->the_post();
-    ?>
-    <div class="meta-box">
-      <img src="<?php the_post_thumbnail_url('custom-size')?>">
-      <div class="caption">
-        <h6><?php the_title();?></h6>
-      </div>
-    </div>
+    <div class="container">
     <?php
+    while($query->have_posts()){
+      $query->the_post();
+    ?>
+      <div class="meta-box">
+        <a href="<?php echo the_permalink();?>">
+          <img data-src="<?php the_post_thumbnail_url('custom-size')?>" class="lazy img-responsive">
+          <div class="caption">
+            <h6><?php the_title();?></h6>
+          </div>
+        </a>
+      </div>
+  <?php
   }
   wp_reset_query();
   ?>
   </div>
   <?php
   get_footer();
-?>
+  ?>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>

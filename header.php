@@ -12,7 +12,9 @@
   <header class="main-header">
     <nav class="navigation">
       <div class="brand">
-        <div class="brand__graphic">Rams International</div>
+        <a href="<?php echo get_site_url();?>">
+          <div class="brand__graphic">Rams International</div>
+        </a>
       </div>
 
       <div class="nav-menu">
