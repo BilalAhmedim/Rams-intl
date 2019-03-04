@@ -1,0 +1,33 @@
+.generic_content{
+  padding: 5px 10px;
+  @mixin atSmall{
+    padding: 10px 15px;
+  }
+  @mixin atMedium{
+    padding: 20px 35px;
+  }
+  @mixin atLarge{
+    padding: 20px 55px;
+  }
+  @mixin atCommon{
+    padding: 30 76px;
+  }
+  h3{
+    margin-top: 10px;
+    @mixin atSmall{
+      margin-top: 20px;
+    }
+    @mixin atMedium{
+      margin-top: 30px;
+    }
+    @mixin atLarge{
+      margin-top: 35px;
+    }
+    @mixin atCommon{
+      margin-top: 40;
+    }
+    &:first-child{
+      margin:0;
+    }
+  }
+}

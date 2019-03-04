@@ -39,7 +39,7 @@
           </li>
           <li><a href="<?php echo get_site_url().'/index.php/basin-sinks?cat=23'?>">Basin Sinks</a></li>
           <li><a href="<?php echo get_site_url().'/index.php/pedestal-sinks?cat=24'?>">Pedestal Sinks</a></li>
-          <li><a href="<?php echo get_site_url().'/index.php/about'?>">About</a></li>
+          <li><a href="<?php echo get_site_url().'/index.php/about-us'?>">About</a></li>
           <li><a href="<?php echo get_site_url().'/index.php/contact'?>">Contact</a></li>
         </ul>
       </div>

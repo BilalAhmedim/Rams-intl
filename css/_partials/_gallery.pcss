@@ -28,17 +28,17 @@
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, .4);
-      @mixin atMedium{
-        background: rgba(0, 0, 0, .6);
-      }
       position: absolute;
       top: 0;
       left: 0;
+      transition: all 200ms ease-in-out;
+      @mixin atMedium{
+        background: rgba(0, 0, 0, .6);
+      }
       @mixin atMedium{
         transform: scale(.8);
         opacity: 0;
       }
-      transition: all 200ms ease-in-out;
     }
     &__caption{
       width: 100%;
@@ -78,6 +78,7 @@
   }
 
   &-section{
+    margin-top: 60px;
     .meta-box{
       position: relative;
       display: block;
@@ -85,7 +86,11 @@
       border-right: 10px solid #fff;
       border-bottom: 10px solid #fff;
       width: 50%;
-      overflow: hidden;      
+      overflow: hidden;
+      img{
+        transform: scale(1);
+        transition: all 300ms ease-in-out;
+      }    
       @mixin atLarge{
         width: 33.33%;
       }
@@ -109,6 +114,9 @@
       a:hover .caption{
         transform: scale(1);
         opacity: 1;
+      }
+      a:hover img{
+        transform: scale(1.03);
       }
     }
   }
