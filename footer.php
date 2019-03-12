@@ -43,24 +43,24 @@
               </div>
               <ul class="text-justify footer__align--two">
 
-                <li><a href="<?php echo get_site_url().'/bath-tubs?cat=16'?>">Bath Tubs</a></li>
-                <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks?cat=17'?>">FarmHouse Sink</a>
+                <li><a href="<?php echo get_site_url().'/bath-tubs?cat=2'?>">Bath Tubs</a></li>
+                <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks?cat=3'?>">Farm House Sink</a>
 
                   <ul>
-                    <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/single-bowl?cat=19'?>">Single Bowl</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/double-bowls?cat=18'?>">Double Bowl</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/single-bowl?cat=4'?>">Single Bowl</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/double-bowl?cat=5'?>">Double Bowl</a></li>
                   </ul>
                 </li>
 
-                <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks?cat=20'?>">Under Mount Sink</a>
+                <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks?cat=6'?>">Under Mount Sink</a>
                   <ul>
-                    <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/single-bowls?cat=21'?>">Single Bowl</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/double-bowls?cat=22'?>">Double Bowl</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/single-bowl?cat=7'?>">Single Bowl</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/under-mount-sinks/double-bowl?cat=8'?>">Double Bowl</a></li>
                   </ul>
                 </li>
 
-                <li><a href="<?php echo get_site_url().'/index.php/basin-sinks?cat=23'?>">Basin Sinks</a></li>
-                <li><a href="<?php echo get_site_url().'/index.php/pedestal-sinks?cat=24'?>">Pedistal Sinks</a></li>
+                <li><a href="<?php echo get_site_url().'/index.php/basin-sinks?cat=9'?>">Basin Sinks</a></li>
+                <li><a href="<?php echo get_site_url().'/index.php/pedestal-sinks?cat=10'?>">Pedistal Sinks</a></li>
 
               </ul>
             </div>

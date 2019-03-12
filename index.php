@@ -66,7 +66,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Bath Tubs</h5>
-              <a href="<?php echo get_site_url().'/bath-tubs?cat=16'?>">View More</a>
+              <a href="<?php echo get_site_url().'/bath-tubs?cat=2'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -76,7 +76,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Farm House Sinks Single Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/farm-house-sinks/single-bowl?cat=19'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/farm-house-sinks/single-bowl?cat=4'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -86,7 +86,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Farm House Sinks Double Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/farm-house-sinks/double-bowls?cat=18'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/farm-house-sinks/double-bowl?cat=5'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -96,7 +96,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Under Mount Sink Single Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/under-mount-sinks/single-bowls?cat=21'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/under-mount-sinks/single-bowl?cat=7'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -106,7 +106,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Under Mount Sink Double Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/under-mount-sinks/double-bowls?cat=22'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/under-mount-sinks/double-bowl?cat=8'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -116,7 +116,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Copper Basin Sinks</h5>
-              <a href="<?php echo get_site_url().'/index.php/basin-sinks?cat=23'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/basin-sinks?cat=9'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -126,7 +126,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Copper Pedestal Sinks</h5>
-              <a href="<?php echo get_site_url().'/index.php/pedestal-sinks?cat=24'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/pedestal-sinks?cat=10'?>">View More</a>
             </div>
           </figcaption>
         </figure>
