@@ -59,10 +59,10 @@
             </div>
           </a>
         </div>
-    <?php
-    }
-    wp_reset_query();
-    ?>
+      <?php
+      }
+      wp_reset_query();
+      ?>
       </div>
     </div>
     <?php

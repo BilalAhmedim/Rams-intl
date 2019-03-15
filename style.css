@@ -327,6 +327,9 @@ img{
     margin-bottom: 10px
 }
   }
+.row{
+  margin: 0;
+}
 .main-header{
   background: rgba(255, 255, 255, .9);
   width: 100%;
@@ -885,6 +888,89 @@ img{
 .google_map{
     margin-top: 0
 }
+  }
+.single-page-header{
+  margin: 20px 0;
+}
+@media (min-width: 530px){
+.single-page-header{
+    margin: 25px
+}
+  }
+@media (min-width: 768px){
+.single-page-header{
+    margin: 30px
+}
+  }
+@media (min-width: 992px){
+.single-page-header{
+    margin: 35px
+}
+  }
+@media (min-width: 1200px){
+.single-page-header{
+    margin: 40px
+}
+  }
+a.single-page-link:hover{
+    text-decoration: none;
+  }
+.generic-content__single-page{
+  margin: 20px 0 0 0; 
+}
+@media (min-width: 530px){
+.generic-content__single-page{
+    margin: 30px 0 0 0 
+}
+  }
+@media (min-width: 768px){
+.generic-content__single-page{
+    margin: 0 
+}
+  }
+@media (min-width: 992px){
+.generic-content__single-page{
+    margin: 40px 0 0 0 
+}
+  }
+@media (min-width: 1200px){
+.generic-content__single-page{
+    margin: 45px 0 0 0 
+}
+  }
+.button{
+  margin: 20px 0 0 0; 
+}
+@media (min-width: 530px){
+.button{
+    margin: 30px 0 0 0 
+}
+  }
+@media (min-width: 768px){
+.button{
+    margin: 0 
+}
+  }
+@media (min-width: 992px){
+.button{
+    margin: 40px 0 0 0 
+}
+  }
+@media (min-width: 1200px){
+.button{
+    margin: 45px 0 0 0 
+}
+  }
+a{
+  text-align: center;
+  color: #0695DD;
+}
+a:hover{
+    text-decoration: none;
+  }
+a.about-a{
+    padding: 12px 22px;
+    border: 1px solid #0695DD;
   }
 
 /*# sourceMappingURL=style.css.map */

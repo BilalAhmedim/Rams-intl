@@ -37,12 +37,16 @@
 
     <div class="container text-center">
       <div class="row">
-        <p>
-          We are leading Manufacturers exporters of Copper bathtubs, Wash Basins & Kitchen Sinks (Copper & Stainless
-          steel) we also makes items for home décor. Rams International, established in 2003, it has been only over
-          the last 16 years, we have experienced the tremendous change that has brought us to where we are today.
-        </p>
-        <a href="<?php echo get_site_url().'/index.php/about-us'?>">Read More</a>
+        <div class="col-md-12">
+          <p>
+            We are leading Manufacturers exporters of Copper bathtubs, Wash Basins & Kitchen Sinks (Copper & Stainless
+            steel) we also makes items for home décor. Rams International, established in 2003, it has been only over
+            the last 16 years, we have experienced the tremendous change that has brought us to where we are today.
+          </p>
+          <div class="button">
+            <a href="<?php echo get_site_url().'/index.php/about-us'?>" class="about-a">Read More</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
