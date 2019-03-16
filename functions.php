@@ -22,4 +22,25 @@ function ThemeSupport(){
 }
 
 add_action('after_setup_theme', 'ThemeSupport');
+
+
+function private_content_redirect_to_login() {
+  global $wp_query,$wpdb;
+  if (is_404()) {
+    $private = $wpdb->get_row($wp_query->request);
+    $location = wp_login_url($_SERVER["REQUEST_URI"]);
+    if( 'private' == $private->post_status  ) {
+      wp_safe_redirect($location);
+      exit;
+    }
+  }
+}
+add_action('template_redirect', 'private_content_redirect_to_login', 9);
+
+function custom_loginlogo() {
+  echo '<style type="text/css">
+  h1 a {background-image: url('.get_bloginfo('template_directory').'/assets/logo.png) !important; }
+  </style>';
+}
+add_action('login_head', 'custom_loginlogo');
 ?>
