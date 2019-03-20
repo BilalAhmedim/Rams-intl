@@ -46,6 +46,7 @@
     $query = new WP_Query($args);?>
 
     <div class="gallery-section">
+      <?php echo "<a href='".get_site_url()."' class='allpage goback'>Go Back</a>"?>
       <div class="container">
       <?php
       while($query->have_posts()){

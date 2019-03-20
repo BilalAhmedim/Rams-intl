@@ -121,3 +121,45 @@ a{
     border: 1px solid $primary-color;
   }
 }
+.section,.gallery-section{
+  position: relative;
+}
+a.goback{
+  text-decoration: none;
+  color: $primary-color;
+  padding: 6px 11px;
+  position: absolute;
+  top: 0;
+  @mixin atSmall{
+    margin: 15px 0 0 10px;
+    border: 1px solid $primary-color;
+  }
+   @mixin atMedium{
+    margin: 30px 0 0 20px;
+  }
+  @mixin atLarge{
+    margin: 35px 0 0 40px;
+  }
+  @mixin atCommon{
+    margin: 40px 0 0 90px;
+  } 
+  &:hover{
+    color: $primary-color;
+  }
+}
+a.goback.allpage{
+    margin: 5px 0 0 5px;
+  @mixin atSmall{
+    margin: 5px 0 0 8px;
+    border: 1px solid $primary-color;
+  }
+   @mixin atMedium{
+    margin: 15px 0 0 20px;
+  }
+  @mixin atLarge{
+    margin: 15px 0 0 40px;
+  }
+  @mixin atCommon{
+    margin: 10px 0 0 60px;
+  } 
+  }

@@ -24,8 +24,8 @@
       <div class="nav-menu__content">
         <ul class="nav-menu__item">
           <li><a href="<?php echo get_site_url()?>">Home</a></li>
-          <li><a href="<?php echo get_site_url().'/bath-tubs?cat=2'?>">Bath Tubs</a></li>
-          <li><a class="drop">Farm House Sink</a>
+          <li><a href="<?php echo get_site_url().'/index.php/bath-tubs?cat=2'?>">Bath Tubs</a></li>
+          <li><a class="drop">Farm House Sinks</a>
             <ul class="nav-menu__item__sub">
               <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/single-bowl?cat=4'?>">Single Bowl</a></li>
               <li><a href="<?php echo get_site_url().'/index.php/farm-house-sinks/double-bowl?cat=5'?>">Double Bowl</a></li>

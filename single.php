@@ -13,6 +13,7 @@
         </div>
       </div>
     </div>
+    <?php echo "<a href='javascript:history.go(-1)' class='goback'>Go Back</a>"?>
     <div class="row">
       <div class="col-md-6 text-center">
         <div id="demo-test-gallery" class="demo-gallery wrapper">
@@ -20,8 +21,6 @@
           <a href="<?php echo the_post_thumbnail_url()?>" data-size="1500x1500" data-med="<?php echo the_post_thumbnail_url()?>" data-med-size="800x800"
             data-author="Rams International" class="demo-gallery__img--main single-page-link">
             <img src='<?php echo the_post_thumbnail_url('custom-size')?>' class="lazyload" alt='<?php echo the_title()?>' />
-            <figure class="caption"><h6><?php echo the_title()?></h6>
-            </figure>
           </a>
         </div>
       </div>
