@@ -18,9 +18,9 @@
       <div class="col-md-6 text-center">
         <div id="demo-test-gallery" class="demo-gallery wrapper">
           <!-- Product Image-->
-          <a href="<?php echo the_post_thumbnail_url()?>" data-size="1500x1500" data-med="<?php echo the_post_thumbnail_url()?>" data-med-size="800x800"
+          <a href="<?php echo the_post_thumbnail_url("large-size")?>" data-size="1500x1500" data-med="<?php echo the_post_thumbnail_url("medium-size")?>" data-med-size="800x800"
             data-author="Rams International" class="demo-gallery__img--main single-page-link">
-            <img src='<?php echo the_post_thumbnail_url('custom-size')?>' class="lazyload" alt='<?php echo the_title()?>' />
+            <img data-src="<?php the_post_thumbnail_url('small-size')?>" class="lazy img-responsive" alt='<?php echo the_title()?>' />
           </a>
         </div>
       </div>

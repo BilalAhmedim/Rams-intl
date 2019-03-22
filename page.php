@@ -54,7 +54,7 @@
       ?>
         <div class="meta-box">
           <a href="<?php echo the_permalink();?>">
-            <img data-src="<?php the_post_thumbnail_url('custom-size')?>" class="lazy img-responsive">
+            <img data-src="<?php the_post_thumbnail_url('small-size')?>" class="lazy img-responsive">
             <div class="caption">
               <h6><?php the_title();?></h6>
             </div>
