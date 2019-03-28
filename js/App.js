@@ -8,7 +8,7 @@ nav_sub__menu = document.querySelectorAll('ul li a.drop')
 ;
 // Navigation Menu Icon
 function navExpand(){
-  if(nav_icon.classList[1] == undefined){
+  if(nav_icon.classList[2] == undefined){
     nav_icon.classList.add('nav-menu--close');
     nav_expanded.classList.add('nav-menu__item--is-expend');
     nav_content_hide.classList.add('nav-menu__content--show');

@@ -60,51 +60,72 @@
   display: inline-block;
   float: right;
 }
+.nav-menu__item{
+  width: 100vw;
+  margin-top: -10px;
+  padding: 0 0 0 40%;
+  @mixin atMedium{
+    margin: 11.5px 0 0 0;
+    padding: 0;
+    width: auto;
+    display: inline-block;
+    text-align: right;
+    padding-right: 25px;
+    float: right;
+  }
+  > li{
+    @mixin atMedium{
+      float: left;
+      display: inline-block;
+      &:nth-child(3){
+        width: 204px;
+      }
+    }
+  }
+}
 ul{
-  display: inline;
+  display: block;
   padding: 0;
-  margin: 7.5px 50px 0 0;
-  float: right;
+  margin: 0;
+  background: #fff;
+  @mixin atMedium{
+  }
   li{
     display: block;
-    float: left;
     margin: 0;
     padding: 0;
     a{
       display: block;
       font-size: 18px;
-      padding: 12px 15px;
+      padding: 8px 15px;
       color: #111;
     }
   }
   ul{
-    width: 204px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 0 0 8px 8px;
     height: 0;
-    opacity: 0;
+    opacity: 1;
     transition: all 200ms ease-in-out;
     overflow: hidden;
     position: relative;
     background: rgba(#fff, .8);
-    margin: 0 0 0 100px;
+    margin: 0 0 0 25px;
     padding: 0;
     li{
       display: block;
-      float: none;
     }
     ul{
       background: rgba(#fff, .0);
       height: 0px;
-      
+      margin-left: 50px;
       transition: all 200ms ease-in-out;
       li{
-        text-align: right;
         background: rgba(#fff, .8);
       }
     }
     li:hover > ul.nav-menu__item__sub{
-      height: 102px;
+      height: 86px;
       opacity: 1;
     }
   }
@@ -114,7 +135,10 @@ ul{
     }
 }
 ul.nav-menu__item > li:nth-child(3){
-    max-width: 112px;
+    max-width: 100%;/*112px*/;
+    @mixin atMedium{
+      width: 112px;
+    }
     &:hover{
       border-radius: 0 0 8px 0;
     }
