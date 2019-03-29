@@ -405,7 +405,7 @@ img{
       height: 40px;
     }
 .main-header .nav-menu--close::before{
-        top: -10px;
+        top: -11px;
         -webkit-transform: rotate(45deg) scale(1.25);
                 transform: rotate(45deg) scale(1.25);
       }
@@ -449,7 +449,7 @@ img{
 .main-header .nav-menu__item{
     width: 100vw;
     margin-top: -10px;
-    padding: 0 0 0 40%;
+    padding: 0;
   }
 @media (min-width: 768px){
 .main-header .nav-menu__item{
@@ -505,6 +505,7 @@ img{
       background: rgba(255,255,255, .8);
       margin: 0 0 0 25px;
       padding: 0;
+      text-align: left;
     }
 @media (min-width: 768px){
 .main-header ul ul{
@@ -524,7 +525,8 @@ img{
       }
 @media (min-width: 768px){
 .main-header ul ul ul{
-          margin: 0
+          margin: 0;
+          text-align: right
       }
   }
 .main-header ul ul ul li{
