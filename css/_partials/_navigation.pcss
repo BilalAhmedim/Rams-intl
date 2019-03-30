@@ -1,200 +1,107 @@
 .main-header{
-  width: 100%;
-  padding-left: 50px;
-  position: fixed;
-  z-index: 999;
-  top: 0;
+  position: relative;
   background: #fff;
-  height: 66px;
+  display: block;
+  width: 100%;
+
   nav{
-    width: 100%;
     position: relative;
+    z-index: 9999;
+    /*  logo  */
     .brand{
-      display: inline-block;
       width: 66px;
       height: 66px;
-      .brand__graphic{
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        background: url("./assets/logo.png") no-repeat center;
-        background-size: cover;
-        text-indent: -9999px;
-      }
+      margin-left: 50px;
+      background: url("./assets/logo.png") no-repeat center;
+      background-size: cover;
+      text-indent: -9999px;
     }
-  }
-  .nav-menu{
-    width: 32px;
-    height: 32px;
-    margin-top: 14px;
-    position: absolute;
-    top: 17px;
-    right: 25px;
-    cursor: pointer;
-    &::before{
-      content: "";
-      width: 30px;
-      height: 2px;
-      background: #000;
-      border-radius: 1px;
+    /* Toggle Button */
+    .nav-menu{
+      width: 32px;
+      height: 32px;
       position: absolute;
-      top: -8px;
-      transform-origin: 0 50%;
-      transition: all .2s ease-in-out;
-    }
-    &__middle{
-      width: 30px;
-      height: 2px;
-      background: #000;
-      border-radius: 1px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: scale(1);
-      transition: all .2s ease-in-out;
-    }
-    &::after{
-      content: "";
-      width: 30px;
-      height: 2px;
-      background: #000;
-      border-radius: 1px;
-      position: absolute;
-      top: 8px;
-      transform-origin: 0 50%;
-      transition: all .2s ease-in-out;
-    }
-    &--close{
-      height: 40px;
+      top: 17px;
+      right: 30px;
       &::before{
-        top: -11px;
-        transform: rotate(45deg) scale(1.25);
+        content: "";
+        width: 32px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        top: 7px;
+        transform-origin: 0 50%;
+        transition: all .2s ease-in-out;
       }
-      .nav-menu__middle{
-        transform: scale(0);
+      &__middle{
+        width: 32px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        top: 15px;
+        transition: all .2s ease-in-out;
       }
       &::after{
-        top: 15px;
-        transform: rotate(-45deg) scale(1.25);
+        content: "";
+        width: 32px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        bottom: 7px;
+        transition: all .2s ease-in-out;
+        transform-origin: 0 50%;
       }
-    }
-  }
-  .nav-menu__content{
-    display: inline-block;
-    float: right;
-    background: rgba(255, 255, 255, .8);
-    opacity: 0;
-    overflow: hidden;
-    transform-origin: 50% 0;
-    transform: scale(.96);
-    transition: all .2s ease-in-out;
-    @mixin atMedium{
-      transform: scale(1);
-      height: 100%;
-      opacity: 1;
-      overflow: visible;
-    }
-    &--show{
-      transform: scale(1);
-      opacity: 1;
-      margin-top: -10px;
-      padding-top: 10px;
-    }
-  }
-  .nav-menu__item{
-    width: 100vw;
-    margin-top: -10px;
-    padding: 0;
-    @mixin atMedium{
-      height: 34px;
-      margin: 11.5px 0 0 0;
-      padding: 0;
-      width: auto;
-      display: inline-block;
-      text-align: right;
-      padding-right: 25px;
-      float: right;
-    }
-    > li{
-      @mixin atMedium{
-        float: left;
-        display: inline-block;
-        &:nth-child(3){
-          width: 204px;
+      &--close{
+        &::before{
+          transform: rotate(45deg) scale(1.25);
+          top: 1px;
+        }
+        .nav-menu__middle{
+          transform: scale(0);
+        }
+        &::after{
+          transform: rotate(-45deg) scale(1.25);
+          bottom: 1px;
         }
       }
-    }
-  }
-  ul{
-    display: block;
-    padding: 0;
-    margin: 0;
-    @mixin atMedium{
-    }
-    li{
-      display: block;
-      margin: 0;
-      padding: 0;
-      a{
-        display: block;
-        font-size: 18px;
-        padding: 8px 15px;
-        color: #111;
-      }
-    }
+    }/* end toggle*/
+
     ul{
-      padding: 10px;
-      border-radius: 0 0 8px 8px;
-      transform-origin: top left;
-      transform: scale(.8);
-      opacity: 0;
-      height: 0;
-      transition: all 200ms ease-in-out;
-      overflow: hidden;
-      position: relative;
-      background: rgba(#fff, .8);
-      margin: 0 0 0 25px;
-      padding: 0;
-      text-align: left;
-      @mixin atMedium{
-        width: 204px;
-        padding: 0;
-        margin: 0;
-      }
+      margin: 0;
+      padding: 0 0 0 20px;
+      /* padding: 0; */
       li{
         display: block;
-      }
-      ul{
-        background: rgba(#fff, .0);
-        height: 0px;
-        margin-left: 50px;
-        transition: all 200ms ease-in-out;
-        @mixin atMedium{
-          margin: 0;
-          text-align: right;
+        list-style: none;
+        a{
+          padding: 8px 12px;
+          display: block;
         }
-        li{
-          background: rgba(#fff, .8);
+        ul{
+          max-height: 0;
+          opacity: 0;
+          background: #fff;
+          transition: all 300ms ease-in-out;
+          ul{
+            ul{
+            }/* Fourth Level ul */
+          }/* third level ul */
+        }/* Second Level ul */
+        &:hover > ul{
+          max-height: 800px;
+          opacity: 1;
         }
-      }
-      li:hover > ul.nav-menu__item__sub{
-        height: 86px;
+      }/* Top Level li */
+    }/* Top Level ul */
+    .nav-menu__content{
+      max-height:0;
+      opacity: 0;
+      overflow: hidden;
+      transition: all .3s ease-in-out;
+      &--show{
+        max-height: 700px;
         opacity: 1;
       }
     }
-    &.nav-menu__item li:hover > ul{
-      transform: scale(1);
-      opacity: 1;
-      height: 100%;
-    }
-  }
-  ul.nav-menu__item > li:nth-child(3){
-    max-width: 100%;/*112px*/;
-    @mixin atMedium{
-      width: 112px;
-    }
-    &:hover{
-      border-radius: 0 0 8px 0;
-    }
-  }
-}
+  }/* end nav */
+}/*  end main header */
