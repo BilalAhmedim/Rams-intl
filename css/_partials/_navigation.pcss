@@ -1,8 +1,13 @@
 .main-header{
-  position: relative;
+  position: fixed;
   background: #fff;
+  top: 0;
   display: block;
   width: 100%;
+  z-index: 9999;
+  @mixin atnav{
+    height: 66px;
+  }
 
   nav{
     position: relative;
@@ -15,6 +20,10 @@
       background: url("./assets/logo.png") no-repeat center;
       background-size: cover;
       text-indent: -9999px;
+      @mixin atnav{
+        float: left;
+        display: inline-block;
+      }
     }
     /* Toggle Button */
     .nav-menu{
@@ -64,22 +73,31 @@
           bottom: 1px;
         }
       }
+      &__toggle{
+        @mixin atnav{
+          display: none;
+        }
+      }
     }/* end toggle*/
+
 
     ul{
       margin: 0;
       padding: 0 0 0 20px;
-      /* padding: 0; */
       li{
-        display: block;
         list-style: none;
         a{
           padding: 8px 12px;
           display: block;
         }
         ul{
+          position: relative;
           max-height: 0;
           opacity: 0;
+          @mixin atnav{
+            max-height: 100%;
+            opacity: 1;
+          }
           background: #fff;
           transition: all 300ms ease-in-out;
           ul{
@@ -92,11 +110,78 @@
           opacity: 1;
         }
       }/* Top Level li */
+      @mixin atnav{
+        &.nav-menu__item{
+          position: relative;
+          top: 12px;
+          display: inline-block;
+          float: left;
+          padding: 0;
+          > li{
+            position: relative;
+            ul{
+              position: fixed;
+              top: 66px;
+              max-height: 0;
+              opacity: 0;
+              overflow: hidden;
+              li{
+                position: relative;
+                ul{
+                  max-height: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 100%;
+                  width: 100%;
+                  overflow: hidden;
+                }
+                &:hover > ul{
+                  max-height: 400px;
+                  opacity: 1;
+                  overflow: visible;
+                }
+              }
+            }
+            &:hover > ul{
+              max-height: 400px;
+              opacity: 1;
+              overflow: visible;
+            }
+          }
+          > li{
+            float: left;
+            &:nth-child(2){
+              width: auto;
+              > ul{
+                width: auto;
+                ul{
+                  width: 160px;
+                }
+              }
+            }
+            &:nth-child(3){
+              width: 117px;
+              > ul{
+                width: auto;
+                ul{
+                  width: 160px;
+                }
+              }
+            }
+          }
+        }
+      }
     }/* Top Level ul */
     .nav-menu__content{
-      max-height:0;
+      max-height: 0;
       opacity: 0;
       overflow: hidden;
+      @mixin atnav{
+        display: inline-block;
+        float: left;
+        max-height: 100%;
+        opacity: 1;
+      }
       transition: all .3s ease-in-out;
       &--show{
         max-height: 700px;

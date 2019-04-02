@@ -16,7 +16,7 @@
         <a href="<?php echo get_site_url();?>">Rams International</a>
       </div>
 
-      <div class="nav-menu d-md-none">
+      <div class="nav-menu nav-menu__toggle">
         <div class="nav-menu__middle"></div>
       </div>
 

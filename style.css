@@ -283,6 +283,7 @@ template {
   box-sizing: border-box;
 }
 body{
+  margin-top: 66px;
   padding: 0;
   font-family: 'Montserrat', san-serif;
 }
@@ -330,11 +331,18 @@ img{
   margin: 0;
 }
 .main-header{
-  position: relative;
+  position: fixed;
   background: #fff;
+  top: 0;
   display: block;
-  width: 100%;/* end nav */
+  width: 100%;
+  z-index: 9999;/* end nav */
 }
+@media (min-width: 820px){
+.main-header{
+    height: 66px
+}
+  }
 .main-header nav{
     position: relative;
     z-index: 9999;
@@ -348,6 +356,12 @@ img{
       background-size: cover;
       text-indent: -9999px;
     }
+@media (min-width: 820px){
+.main-header nav .brand{
+        float: left;
+        display: inline-block
+    }
+  }
 /* Toggle Button */
 .main-header nav .nav-menu{
       width: 32px;
@@ -400,14 +414,17 @@ img{
                   transform: rotate(-45deg) scale(1.25);
           bottom: 1px;
         }
+@media (min-width: 820px){
+.main-header nav .nav-menu__toggle{
+          display: none
+      }
+  }
 /* end toggle*/
 .main-header nav ul{
       margin: 0;
-      padding: 0 0 0 20px;/* Top Level li */
+      padding: 0 0 0 20px;
     }
-/* padding: 0; */
 .main-header nav ul li{
-        display: block;
         list-style: none;
       }
 .main-header nav ul li a{
@@ -415,11 +432,18 @@ img{
           display: block;
         }
 .main-header nav ul li ul{
+          position: relative;
           max-height: 0;
           opacity: 0;
           background: #fff;
           transition: all 300ms ease-in-out;/* third level ul */
         }
+@media (min-width: 820px){
+.main-header nav ul li ul{
+            max-height: 100%;
+            opacity: 1
+        }
+  }
 .main-header nav ul li ul ul{/* Fourth Level ul */
           }
 .main-header nav ul li ul ul ul{
@@ -429,13 +453,83 @@ img{
           max-height: 800px;
           opacity: 1;
         }
+/* Top Level li */
+@media (min-width: 820px){
+        .main-header nav ul.nav-menu__item{
+          position: relative;
+          top: 12px;
+          display: inline-block;
+          float: left;
+          padding: 0;
+        }
+          .main-header nav ul.nav-menu__item > li{
+            position: relative;
+          }
+            .main-header nav ul.nav-menu__item > li ul{
+              position: fixed;
+              top: 66px;
+              max-height: 0;
+              opacity: 0;
+              overflow: hidden;
+            }
+              .main-header nav ul.nav-menu__item > li ul li{
+                position: relative;
+              }
+                .main-header nav ul.nav-menu__item > li ul li ul{
+                  max-height: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 100%;
+                  width: 100%;
+                  overflow: hidden;
+                }
+                .main-header nav ul.nav-menu__item > li ul li:hover > ul{
+                  max-height: 400px;
+                  opacity: 1;
+                  overflow: visible;
+                }
+            .main-header nav ul.nav-menu__item > li:hover > ul{
+              max-height: 400px;
+              opacity: 1;
+              overflow: visible;
+            }
+          .main-header nav ul.nav-menu__item > li{
+            float: left;
+          }
+            .main-header nav ul.nav-menu__item > li:nth-child(2){
+              width: auto;
+            }
+              .main-header nav ul.nav-menu__item > li:nth-child(2) > ul{
+                width: auto;
+              }
+                .main-header nav ul.nav-menu__item > li:nth-child(2) > ul ul{
+                  width: 160px;
+                }
+            .main-header nav ul.nav-menu__item > li:nth-child(3){
+              width: 117px;
+            }
+              .main-header nav ul.nav-menu__item > li:nth-child(3) > ul{
+                width: auto;
+              }
+                .main-header nav ul.nav-menu__item > li:nth-child(3) > ul ul{
+                  width: 160px;
+                }
+  }
 /* Top Level ul */
 .main-header nav .nav-menu__content{
-      max-height:0;
+      max-height: 0;
       opacity: 0;
       overflow: hidden;
       transition: all .3s ease-in-out;
     }
+@media (min-width: 820px){
+.main-header nav .nav-menu__content{
+        display: inline-block;
+        float: left;
+        max-height: 100%;
+        opacity: 1
+    }
+  }
 .main-header nav .nav-menu__content--show{
         max-height: 700px;
         opacity: 1;
