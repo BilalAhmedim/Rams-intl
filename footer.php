@@ -90,23 +90,6 @@
 </footer>
 <?php
   wp_footer();
-  if(is_admin_bar_showing()){
-    echo "
-    <script>
-      document.querySelector('.main-header').style.top = '30px';
-      var lazyLoadInstance = new LazyLoad({
-        elements_selector: '.lazy'
-      });
-    </script>
-    ";
-  }else if(!is_admin_bar_showing()){
-    echo "
-    <script>
-      var lazyLoadInstance = new LazyLoad({
-        elements_selector: '.lazy'
-      });
-    </script>";
-  }
 ?>
 </body>
 </html>

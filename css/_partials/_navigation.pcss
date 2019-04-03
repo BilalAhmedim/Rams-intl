@@ -1,5 +1,5 @@
 .main-header{
-  position: fixed;
+  position: relative;
   background: #fff;
   top: 0;
   display: block;
@@ -112,7 +112,7 @@
       }/* Top Level li */
       @mixin atnav{
         &.nav-menu__item{
-          position: relative;
+          position: absolute;
           top: 12px;
           display: inline-block;
           float: left;
@@ -120,8 +120,8 @@
           > li{
             position: relative;
             ul{
-              position: fixed;
-              top: 66px;
+              position: relative;
+              top: 0;
               max-height: 0;
               opacity: 0;
               overflow: hidden;
@@ -162,7 +162,7 @@
             &:nth-child(3){
               width: 117px;
               > ul{
-                width: auto;
+                width: 220px;
                 ul{
                   width: 160px;
                 }
