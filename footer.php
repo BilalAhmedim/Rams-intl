@@ -91,5 +91,10 @@
 <?php
   wp_footer();
 ?>
+<script>
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
 </body>
 </html>

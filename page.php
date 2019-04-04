@@ -39,7 +39,7 @@
       'orderby' => 'date' ,
       'order' => 'DESC' ,
       'posts_per_page' => 6,
-      'cat'=> $_GET['cat'],
+      'category_name'=> $_GET['category_name'],
       'paged' => get_query_var('paged'),
       'post_parent' => $parent
     ); 
