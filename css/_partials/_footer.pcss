@@ -1,99 +1,72 @@
 .footer{
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
   overflow: hidden;
   clear: both;
   @mixin atMedium{
     padding: 60px 0;
   }
-
-  .rams-pages,.social-pages{
-    @mixin atMedium{
-      margin-top: 50px;
-    }
-    @mixin atLarge{
-      margin-top: 0;
-    }
-  }
-
-  &__divider{
-    margin-bottom: 40px;
-    @mixin atMedium{
-      margin-bottom: 0;
-    }
-    h5{
-      margin-bottom: 10px;
-      color: $ternary-color;
-      @mixin atMedium{
-        margin-bottom: 20px;
-      }
-    }
-  }
-
-  &__align{
-    &--one{
-      width: 70px;
-      margin: 0 auto;
-      display:block;
-      list-style: none;
-      padding: 0;
-    }
-    &--two{
-      width: 150px;
-      margin: 0 auto;
-      display:block;
-      list-style: none;
-      padding: 0;
-      ul{
-        display: block;
-        list-style: none;
-        padding-left: 25px;
-      }
-    }
-    &--three{
-      width: 25px;
-      margin: 0 auto;
-      display: inline;
-      list-style: none;
-      padding: 0;
-      li{
-        display: inline-block;
-        padding-right: 20px;
-        @mixin atLarge{
-          display: block;
-          text-align: center;
-        }
-      }
-    }
-  }
-
-  &__nav__copyright{
-    width: 100%;
-    height: 100%;
-    .brand{
+  .brand{
+    text-align:center;
+    clear: both;
+    a{
       width: 66px;
       height: 66px;
-      margin-left: 20px;
-      overflow: hidden;
-      display: inline-block;
-      &__graphic{
-        width: 100%;
-        height: 100%;
-        text-indent: -9999px;
-        background: url('./assets/logo.png');
-        &--no-indent{
-          width: 100%;
-          height: 100%;
-          text-indent: 0;
+      margin: 0 auto;
+      display: block;
+      background: url("assets/logo.png") no-repeat center;
+      text-indent: -99999px;
+      @mixin atMedium{
+        margin: 0 0 0 60px;
+      }
+    }
+    margin-bottom: 60px;
+    @mixin atMedium{
+      text-align: left;
+      clear: left;
+      margin-bottom: 30px;
+    }
+  }
+
+  .social{
+    ul{
+      text-align: center;
+      li{
+        display: inline-block;
+        margin-right: 20px;
+        text-align:center;
+        clear: both;
+        @mixin atMedium{
+          text-align:left;
+          clear: left;
+          display: block;
+          margin: 0;
+        }
+        a{
+          display: block;
         }
       }
-      &__text{
-        h6{
-          margin: 0;
-          color: $ternary-color;
-        }
+      margin-bottom: 30px;
+      @mixin atMedium{
+        margin: 0;
+        padding: 0;
       }
     }
   }
 
-
+  .col-sm-4 ul{
+    text-align: center;
+    margin: 20px auto;
+    padding: 0;
+    display: block;
+    list-style: none;
+    @mixin atMedium{
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+    li a{
+      display: block;
+      padding: 3px 14px;
+    }
+  }
 }
