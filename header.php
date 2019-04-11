@@ -25,7 +25,7 @@
                 <li>
                   <a href="javascript:void(0)">Copper Kitchen &amp; Bathtubs</a>
                   <ul>
-                    <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/bath-tubs?category_nameegory_name=bath-tubs'?>">Bath Tubs</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/bath-tubs?category_name=bath-tubs'?>">Bath Tubs</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/hoods?category_name=hoods'?>">Hoods</a></li>
                     <li>
                       <a href="javascript:void(0)">Farm House Sinks</a>
@@ -63,7 +63,6 @@
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-table-chairs?category_name=accent-table-chairs'?>">Accent Table & Chairs</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables?category_name=coffee-tables'?>">Coffee Tables</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/stools?category_name=stools'?>">Stools</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/cabinets?category_name=cabinets'?>">Cabinets</a></li>
                   </ul>
                 </li>
                 <li>

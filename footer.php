@@ -22,7 +22,7 @@
       
       <div class="col-sm-4">
         <ul>
-          <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/bath-tubs?category_nameegory_name=bath-tubs'?>">Bath Tubs</a></li>
+          <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/bath-tubs?category_name=bath-tubs'?>">Bath Tubs</a></li>
           <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/hoods?category_name=hoods'?>">Hoods</a></li>
           <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks?category_name=farm-house-sinks'?>">Farm House Sinks</a></li>
           <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks?category_name=under-mount-sinks'?>">Under Mount Sinks</a></li>
