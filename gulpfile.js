@@ -17,7 +17,8 @@ path = "./"
 gulp.task('watch', function(){
 
   sync.init({
-    proxy: "rams-international.local",
+    //proxy: "rams-international.local",
+    proxy: "http://ramsintl.local",
     notify: false
   });
 
