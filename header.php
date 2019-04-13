@@ -24,7 +24,7 @@
       wp_head();
       ?>
   </head>
-  <body <?php echo body_class();?>>
+  <body <?php echo body_class();?> oncontextmenu="return false">
     <header class="main-header">
       <nav class="navigation">
         <div class="brand">
@@ -47,15 +47,15 @@
                     <li>
                       <a href="javascript:void(0)">Farm House Sinks</a>
                       <ul>
-                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/single-bowl?category_name=farm-house-single-bowl'?>">Single Bowl</a></li>
-                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/double-bowl?category_name=farm-house-double-bowl'?>">Double Bowl</a></li>
+                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/single-bowl?category_name=farm-house-sinks-single-bowl'?>">Single Bowl</a></li>
+                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/double-bowl?category_name=farm-house-sinks-double-bowl'?>">Double Bowl</a></li>
                       </ul>
                     </li>
                     <li>
                       <a href="javascript:void(0)">Under Mount Sinks</a>
                       <ul>
-                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/single-bowl?category_name=under-mount-single-bowl'?>">Single Bowl</a></li>
-                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/double-bowl?category_name=under-mount-double-bowl'?>">Double Bowl</a></li>
+                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/single-bowl?category_name=under-mount-sinks-single-bowl'?>">Single Bowl</a></li>
+                        <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/double-bowl?category_name=under-mount-sinks-double-bowl'?>">Double Bowl</a></li>
                       </ul>
                     </li>
                     <li><a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/basin?category_name=basin'?>">Basin</a></li>

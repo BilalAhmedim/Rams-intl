@@ -90,7 +90,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Farm House Sinks Single Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/single-bowl?category_name=farm-house-single-bowl'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/single-bowl?category_name=farm-house-sinks-single-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -100,7 +100,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Farm House Sinks Double Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/double-bowl?category_name=farm-house-double-bowl'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/farm-house-sinks/double-bowl?category_name=farm-house-sinks-double-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -110,7 +110,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Under Mount Sink Single Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/single-bowl?category_name=under-mount-single-bowl'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/single-bowl?category_name=under-mount-sinks-single-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -120,7 +120,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Under Mount Sink Double Bowl</h5>
-              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/double-bowl?category_name=under-mount-double-bowl'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/copper-kitchen-bathtubs/under-mount-sinks/double-bowl?category_name=under-mount-sinks-double-bowl'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -268,7 +268,7 @@
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/copper_tiles_.jpg"?> alt="Pendants" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/pendants.jpg"?> alt="Pendants" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Pendants</h5>
