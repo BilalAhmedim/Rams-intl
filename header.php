@@ -104,6 +104,17 @@
             </li>
             <li><a href="<?php echo get_site_url().'/index.php/about-us'?>">About</a></li>
             <li><a href="<?php echo get_site_url().'/index.php/contact-us'?>">Contact</a></li>
+            <?php 
+              if(is_user_logged_in()){
+                global $current_user;
+                if($current_user->display_name == 'Rams International'){
+                  echo "<li><a href =".get_site_url()."/wp-admin>DashBoard</a></li>";
+                }
+                echo "<li><a href=".wp_logout_url().">Log Out</a></li>";
+              }else{
+                echo "<li><a href=".get_site_url()."/wp-login.php>Log In</a></li>";
+              }
+            ?>
           </ul>
         </div>
       </nav>

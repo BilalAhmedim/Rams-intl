@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="single-page-header text-center">
-          <h3><?php the_title();?></h3>
+          <h3><?php the_excerpt();?></h3>
         </div>
       </div>
     </div>
