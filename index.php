@@ -198,31 +198,41 @@
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/accent_table_chairs.jpg"?> alt="Accent Table &amp; Chairs" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/accent_table_chairs.jpg"?> alt="Accent Table" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>Accent Table &amp; Chairs</h5>
-              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-table-chairs?category_name=accent-table-chairs'?>">View More</a>
+              <h5>Accent Table</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-table?category_name=accent-table'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/coffee_table.jpg"?> alt="Coffee Table" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/coffee_table.jpg"?> alt="Coffee Tables &amp; Side Tables" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>Coffee Table</h5>
-              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables?category_name=coffee-tables'?>">View More</a>
+              <h5>Coffee Tables &amp; Side Tables</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables-side-tables?category_name=coffee-tables-side-tables'?>">View More</a>
             </div>
           </figcaption>
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/stools.jpg"?> alt="Stools" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/stools.jpg"?> alt="Bar Stools &amp; Counter Stools" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>Stools</h5>
-              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/stools?category_name=stools'?>">View More</a>
+              <h5>Bar Stools &amp; Counter Stools</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=bar-stools-counter-stools'?>">View More</a>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__inner">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/chairs.jpg"?> alt="Chairs" class="img-responsive">
+          <figcaption>
+            <div class="gallery__inner__caption">
+              <h5>Chairs</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/chairs?category_name=chairs'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -233,6 +243,26 @@
             <div class="gallery__inner__caption">
               <h5>Lanterns</h5>
               <a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/lanterns?category_name=lanterns'?>">View More</a>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__inner">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/candle_stand.jpg"?> alt="Candle Stands" class="img-responsive">
+          <figcaption>
+            <div class="gallery__inner__caption">
+              <h5>Candle Stands</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/candel-stands?category_name=candle-stands'?>">View More</a>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__inner">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/sconces.jpg"?> alt="Sconces" class="img-responsive">
+          <figcaption>
+            <div class="gallery__inner__caption">
+              <h5>Sconces</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/sconces?category_name=sconces'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -277,6 +307,18 @@
           </figcaption>
         </figure>
 
+
+        <figure class="gallery__inner">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/terrariums.jpg"?> alt="Terrariums" class="img-responsive">
+          <figcaption>
+            <div class="gallery__inner__caption">
+              <h5>Terrariums</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/garden/terrariums?category_name=terrariums'?>">View More</a>
+            </div>
+          </figcaption>
+        </figure>
+
+
         <figure class="gallery__inner">
           <img src=<?php echo get_template_directory_uri()."/assets/thumb/vases.jpg"?> alt="Vases" class="img-responsive">
           <figcaption>
@@ -288,11 +330,11 @@
         </figure>
 
         <figure class="gallery__inner">
-          <img src=<?php echo get_template_directory_uri()."/assets/thumb/planters.jpg"?> alt="Planters" class="img-responsive">
+          <img src=<?php echo get_template_directory_uri()."/assets/thumb/planters.jpg"?> alt="Planters &amp; Chandeleries" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>Planters</h5>
-              <a href="<?php echo get_site_url().'/index.php/handicrafts/garden/planters?category_name=planters'?>">View More</a>
+              <h5>Planters &amp; Chandeleries</h5>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/garden/planters-chandeleries?category_name=planters-chandeleries'?>">View More</a>
             </div>
           </figcaption>
         </figure>

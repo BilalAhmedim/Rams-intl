@@ -77,24 +77,28 @@
                 <li>
                   <a href="javascript:void(0)">Furniture</a>
                   <ul>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-table-chairs?category_name=accent-table-chairs'?>">Accent Table & Chairs</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables?category_name=coffee-tables'?>">Coffee Tables</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/stools?category_name=stools'?>">Stools</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-table?category_name=accent-table'?>">Accent Table</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables-side-tables?category_name=coffee-tables-side-tables'?>">Coffee Tables &amp; Side Tables</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=bar-stools-counter-stools'?>">Bar Stools &amp; Counter Stools</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/chairs?category_name=chairs'?>">Chairs</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="javascript:void(0)">Lamps & Lighting</a>
                   <ul>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/candle-stands?category_name=candle-stands'?>">Candle Stands</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/sconces?category_name=sconces'?>">Sconces</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/lanterns?category_name=lanterns'?>">Lanterns</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/votive?category_name=votive'?>">Votive</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/table-lamps?category_name=table-lamps'?>">Table Lamps</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/floor-lamps?category_name=floor-lamps'?>">Floor Lamps</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/pendants?category_name=pendants'?>">Pendants</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/pendants-chandeleries?category_name=pendants-chandeleries'?>">Pendants &amp; Chandeleries</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="javascript:void(0)">Garden</a>
                   <ul>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/garden/terrariums?category_name=terrariums'?>">Terrariums</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/garden/vases?category_name=vases'?>">Vases</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/garden/planters?category_name=planters'?>">Planters</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/garden/decor-items?category_name=decor-items'?>">Decor Items</a></li>
