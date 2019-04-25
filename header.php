@@ -77,7 +77,7 @@
                 <li>
                   <a href="javascript:void(0)">Furniture</a>
                   <ul>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-table?category_name=accent-table'?>">Accent Table</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-tables?category_name=accent-tables'?>">Accent Tables</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables-side-tables?category_name=coffee-tables-side-tables'?>">Coffee Tables &amp; Side Tables</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=bar-stools-counter-stools'?>">Bar Stools &amp; Counter Stools</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/chairs?category_name=chairs'?>">Chairs</a></li>
@@ -92,7 +92,7 @@
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/votive?category_name=votive'?>">Votive</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/table-lamps?category_name=table-lamps'?>">Table Lamps</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/floor-lamps?category_name=floor-lamps'?>">Floor Lamps</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/pendants-chandeleries?category_name=pendants-chandeleries'?>">Pendants &amp; Chandeleries</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/lamps-lighting/pendants-chandelier?category_name=pendants-chandelier'?>">Pendants &amp; chandelier</a></li>
                   </ul>
                 </li>
                 <li>
