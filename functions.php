@@ -18,19 +18,19 @@ add_action('wp_enqueue_scripts','rams_resources');
 
 
 //  Check Image Width and Height is Enough for post image size we mention
-add_filter('wp_handle_upload_prefilter','wp_handle_upload_prefilter');
-function wp_handle_upload_prefilter($file){
-  $img=getimagesize($file['tmp_name']);
-  $minimum = array('width' => '1000', 'height' => '1000');
-  $width= $img[0];
-  $height =$img[1];
-  if ($width < $minimum['width'] )
-    return array("error"=>"Image dimensions are too small. Minimum width is {$minimum['width']}px. Uploaded image width is $width px");
-  elseif ($height <  $minimum['height'])
-    return array("error"=>"Image dimensions are too small. Minimum height is {$minimum['height']}px. Uploaded image height is $height px");
-  else
-    return $file;
-}
+// add_filter('wp_handle_upload_prefilter','wp_handle_upload_prefilter');
+// function wp_handle_upload_prefilter($file){
+//   $img=getimagesize($file['tmp_name']);
+//   $minimum = array('width' => '1000', 'height' => '1000');
+//   $width= $img[0];
+//   $height =$img[1];
+//   if ($width < $minimum['width'] )
+//     return array("error"=>"Image dimensions are too small. Minimum width is {$minimum['width']}px. Uploaded image width is $width px");
+//   elseif ($height <  $minimum['height'])
+//     return array("error"=>"Image dimensions are too small. Minimum height is {$minimum['height']}px. Uploaded image height is $height px");
+//   else
+//     return $file;
+// }
 
 // theme supported features.
 function ThemeSupport(){
