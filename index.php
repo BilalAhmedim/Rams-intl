@@ -222,7 +222,7 @@
           <figcaption>
             <div class="gallery__inner__caption">
               <h5>Bar Stools &amp; Counter Stools</h5>
-              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=bar-stools-counter-stools'?>">View More</a>
+              <a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=stools'?>">View More</a>
             </div>
           </figcaption>
         </figure>
@@ -343,7 +343,7 @@
           <img src=<?php echo get_template_directory_uri()."/assets/thumb/decore_item.jpg"?> alt="Decore Item" class="img-responsive">
           <figcaption>
             <div class="gallery__inner__caption">
-              <h5>Decore Item</h5>
+              <h5>Decor Item</h5>
               <a href="<?php echo get_site_url().'/index.php/handicrafts/garden/decor-items?category_name=decor-items'?>">View More</a>
             </div>
           </figcaption>

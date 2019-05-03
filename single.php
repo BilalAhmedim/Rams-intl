@@ -9,7 +9,15 @@
     <div class="row">
       <div class="col-md-12">
         <div class="single-page-header text-center">
-          <h3><?php the_excerpt();?></h3>
+          <h3>
+          <?php
+            global $post;
+            if ( has_excerpt( $post->ID ) ) {
+              echo get_the_excerpt();
+            } else {
+              echo get_the_title();
+            }
+          ?></h3>
         </div>
       </div>
     </div>
@@ -20,7 +28,7 @@
           <!-- Product Image-->
           <a href="<?php echo the_post_thumbnail_url("large-size")?>" data-size="1500x1500" data-med="<?php echo the_post_thumbnail_url("medium-size")?>" data-med-size="800x800"
             data-author="Rams International" class="demo-gallery__img--main single-page-link">
-            <img data-src="<?php the_post_thumbnail_url('small-size')?>" class="lazy img-responsive" alt='<?php echo the_title()?>' />
+            <img data-src="<?php echo the_post_thumbnail_url('small-size')?>" class="lazy img-responsive" alt='<?php echo the_title()?>' />
           </a>
         </div>
       </div>

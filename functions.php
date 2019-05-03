@@ -16,13 +16,29 @@ function rams_resources(){
  }
 add_action('wp_enqueue_scripts','rams_resources');
 
+
+//  Check Image Width and Height is Enough for post image size we mention
+add_filter('wp_handle_upload_prefilter','wp_handle_upload_prefilter');
+function wp_handle_upload_prefilter($file){
+  $img=getimagesize($file['tmp_name']);
+  $minimum = array('width' => '1000', 'height' => '1000');
+  $width= $img[0];
+  $height =$img[1];
+  if ($width < $minimum['width'] )
+    return array("error"=>"Image dimensions are too small. Minimum width is {$minimum['width']}px. Uploaded image width is $width px");
+  elseif ($height <  $minimum['height'])
+    return array("error"=>"Image dimensions are too small. Minimum height is {$minimum['height']}px. Uploaded image height is $height px");
+  else
+    return $file;
+}
+
 // theme supported features.
 function ThemeSupport(){
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
   add_image_size( 'small-size', 500, 500, true);
   add_image_size( 'medium-size', 800, 800, true);
-  add_image_size( 'large-size', 1500, 1500, true);
+  add_image_size( 'large-size', 1000, 1000, true);
 }
 
 add_action('after_setup_theme', 'ThemeSupport');

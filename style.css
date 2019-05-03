@@ -631,8 +631,7 @@ img{
       position: relative;
       display: block;
       float: left;
-      border-right: 10px solid #fff;
-      border-bottom: 10px solid #fff;
+      margin: 0 20px 20px 0;
       width: 50%;
     }
 .gallery-section .meta-box img{

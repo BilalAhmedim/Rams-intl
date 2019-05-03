@@ -79,7 +79,7 @@
                   <ul>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/accent-tables?category_name=accent-tables'?>">Accent Tables</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/coffee-tables-side-tables?category_name=coffee-tables-side-tables'?>">Coffee Tables &amp; Side Tables</a></li>
-                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=bar-stools-counter-stools'?>">Bar Stools &amp; Counter Stools</a></li>
+                    <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/bar-stools-counter-stools?category_name=stools'?>">Bar Stools &amp; Counter Stools</a></li>
                     <li><a href="<?php echo get_site_url().'/index.php/handicrafts/furniture/chairs?category_name=chairs'?>">Chairs</a></li>
                   </ul>
                 </li>
