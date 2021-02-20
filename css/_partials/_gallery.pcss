@@ -9,21 +9,28 @@
     margin: 0;
     padding: 0;
   }
+  .row .col-lg-6{
+    margin-bottom: 30px;
+    padding: 0;
+    .col-md-6{
+    padding: 0 30px 0 0;
+    }
+  }
+  .row{
+    .col-lg-6:last-child{
+      padding: 0 0 0 0;
+    }
+  }
   figure{
     margin: 0;
   }
   &__inner{
-    width: 50%;
+    margin: 15px;
     display: block;
     position: relative;
     overflow: hidden;
     float: left;
-    @mixin atMedium{
-      width: 50%;
-    }
-    @mixin atLarge{
-      width: 25%;
-    }
+    box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.20 );
     figcaption{
       width: 100%;
       height: 100%;

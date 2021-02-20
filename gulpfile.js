@@ -18,7 +18,8 @@ gulp.task('watch', function(){
 
   sync.init({
     //proxy: "ramsinternational.local",
-    proxy: "http://ramsintl.local",
+    proxy: "localhost",
+    port: 8080,
     notify: false
   });
 
