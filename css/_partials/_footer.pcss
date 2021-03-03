@@ -13,7 +13,6 @@
       height: 66px;
       margin: 0 auto;
       display: block;
-      background: url("assets/logo.png") no-repeat center;
       text-indent: -99999px;
       @mixin atMedium{
         margin: 0 0 0 60px;
@@ -24,6 +23,13 @@
       text-align: left;
       clear: left;
       margin-bottom: 30px;
+    }
+  }
+  .footer__nav{
+    ul{
+      li{
+        display: block;
+      }
     }
   }
 
@@ -67,6 +73,43 @@
     li a{
       display: block;
       padding: 3px 14px;
+    }
+  }
+
+  .social-icons{
+    span{
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+      &.fb{
+        background: url("./assets/fb.png");
+        background-size: cover;
+      }
+      &.li{
+        background: url("./assets/in.png");
+        background-size: cover;
+      }
+      &.tw{
+        background: url("./assets/tw.png");
+        background-size: cover;
+      }
+      &.pt{
+        background: url("./assets/pt.png");
+        background-size: cover;
+      }
+    }
+  }
+
+  .footer__align--three{
+    li{
+      padding: 0 0 15px 0;
+    }
+  }
+
+  .section-heading{
+    h5{
+      padding-bottom: 30px;
     }
   }
 }
