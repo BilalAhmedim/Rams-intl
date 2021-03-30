@@ -332,7 +332,17 @@ img{
 .navbar{
   padding: 0 48px;
 }
+.navbar span.toggle-brand{
+    display: none;
+    overflow: hidden;
+  }
 @media (min-width: 768px){
+.navbar span.toggle-brand{
+      display: inline-block;
+      overflow: visible
+  }
+  }
+@media (min-width: 820px){
   padding: 0 95px;
   }
 @media (min-width: 768px){

@@ -1,7 +1,15 @@
 .navbar{
   padding: 0 48px;
+  span.toggle-brand{
+    display: none;
+    overflow: hidden;
+    @mixin atMedium{
+      display: inline-block;
+      overflow: visible;
+    }
+  }
 }
 
-@mixin atMedium{
+@mixin atnav{
   padding: 0 95px;
 }
