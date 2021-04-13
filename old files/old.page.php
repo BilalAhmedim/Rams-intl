@@ -45,45 +45,27 @@
     ); 
     $query = new WP_Query($args);?>
 
-<div class="gallery">
-  <div class="gallery__wrapper">
-    <div class="container-fluid text-center">
-    <?php
+    <div class="gallery-section">
+      <?php echo "<a href='".get_site_url()."' class='allpage goback'>Go Back</a>"?>
+      <div class="container">
+      <?php
       while($query->have_posts()){
         $query->the_post();
       ?>
-
-      <div class="row">
-        <div class="col-lg-6">
-        
-          <div class="row">
-
-            <div class="col-md-6">
-              <figure class="gallery__inner">
-                <img src="<?php the_post_thumbnail_url('small-size')?>" alt="Bath Tubs" class="img-responsive">
-                <figcaption>
-                  <div class="gallery__inner__caption">
-                    <h5><?php the_title();?></h5>
-                    <a href=<?php echo the_permalink();?> >View More</a>
-                  </div>
-                </figcaption>
-              </figure>
+        <div class="meta-box">
+          <a href="<?php echo the_permalink();?>">
+            <img data-src="<?php the_post_thumbnail_url('small-size')?>" class="lazy img-responsive">
+            <div class="caption">
+              <h6><?php the_title();?></h6>
             </div>
-
-          </div>
-
+          </a>
         </div>
-      </div>
-
       <?php
       }
       wp_reset_query();
       ?>
-
-
+      </div>
     </div>
-  </div>
-</div>
     <?php
     }
   get_footer();

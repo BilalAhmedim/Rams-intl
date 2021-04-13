@@ -34,7 +34,7 @@
       </div>
       <div class="col-md-6">
         <div class="generic-content generic-content__single-page">
-          <?php the_post(); the_content();?>
+          <?php the_content();?>
         </div>
       </div>
     </div>

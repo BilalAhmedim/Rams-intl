@@ -27,7 +27,7 @@
   </head>
   <body <?php echo body_class();?> oncontextmenu="return false">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo get_site_url()?>">
       <img src=<?php echo get_template_directory_uri()."/assets/logo.png"?> width="65" height="65" alt="Rams International Logo">
         <span class="toggle-brand ">Rams International</span>
     </a>
@@ -38,7 +38,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="<?php echo get_site_url()?>">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -52,10 +52,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="<?php echo get_site_url().'/about-us'?>">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="<?php echo get_site_url().'/contact-us'?>">Contact Us</a>
         </li>
       </ul>
     </div>
