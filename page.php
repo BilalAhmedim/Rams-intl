@@ -47,44 +47,28 @@
 
 <div class="gallery">
   <div class="gallery__wrapper">
-    <div class="container-fluid text-center">
-    <?php
-      while($query->have_posts()){
-        $query->the_post();
-      ?>
-
+    <div class="container text-center">
       <div class="row">
-        <div class="col-lg-6">
-        
-          <div class="row">
+      
+        <?php
+          $count=1;
+          while($query->have_posts()){
+            $query->the_post();
+            include '_POST.php';
+            if ($count == 4){
+              echo "</div>";
+              echo '<div class="row">';
+            }
+            $count++;
+          }
+          wp_reset_query();
+        ?>
 
-            <div class="col-md-6">
-              <figure class="gallery__inner">
-                <img src="<?php the_post_thumbnail_url('small-size')?>" alt="Bath Tubs" class="img-responsive">
-                <figcaption>
-                  <div class="gallery__inner__caption">
-                    <h5><?php the_title();?></h5>
-                    <a href=<?php echo the_permalink();?> >View More</a>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
-
-          </div>
-
-        </div>
       </div>
-
-      <?php
-      }
-      wp_reset_query();
-      ?>
-
-
     </div>
   </div>
 </div>
-    <?php
-    }
+<?php
+  }
   get_footer();
-  ?>
+?>

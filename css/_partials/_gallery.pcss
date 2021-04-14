@@ -31,7 +31,7 @@
     overflow: hidden;
     float: left;
     box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.20 );
-    figcaption{
+    .figcaption{
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, .4);
@@ -82,45 +82,24 @@
     }
   }
 
-  &-section{
-    padding: 60px 0;
-    .meta-box{
-      position: relative;
-      display: block;
-      float: left;
-      margin: 0 20px 20px 0;
-      width: 50%;
-      img{
-        transform: scale(1);
-        transition: all 300ms ease-in-out;
-      }    
-      @mixin atLarge{
-        width: 33.33%;
-      }
-      @mixin atCommon{
-        width: 25%;
-      }
-      .caption{
-        width: 100%;
-        position: absolute;
-        bottom: -1.35%;
-        left: 0;
-        background: rgba($secondry-color, .7);
-        transform: scale(.9);
-        opacity: 0;
-        transition: all 200ms ease-in-out;
-        h6{
-          margin: 5px;
-          color: #111;
-        }
-      }
-      a:hover .caption{
-        transform: scale(1.03);
-        opacity: 1;
-      }
-      a:hover img{
-        transform: scale(1.03);
-      }
+  figure.post{
+    width: calc(50% - 20px);
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.20 );
+    a{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+    }
+    .caption{
+      margin: 5px 0;
+    }
+    h5{
+      color: #111;
+    }
+    @mixin atLarge{
+      width: calc(25% - 20px);
     }
   }
 }

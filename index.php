@@ -72,7 +72,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/baths_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."/products/bath?category_name=cat1"?> >View More</a>
@@ -84,7 +84,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/hoods.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -105,7 +105,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/farmhouse_single_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -117,7 +117,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/farmhouse_double_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -142,7 +142,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/undermount_single_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -154,7 +154,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/undermount_double_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -175,7 +175,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/basin_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -187,7 +187,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/pedestal_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -213,7 +213,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/copper_tiles_.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -225,7 +225,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/utensils_and_tableware.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -246,7 +246,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/mirrors.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
@@ -258,7 +258,7 @@
               <div class="col-md-6">
                 <figure class="gallery__inner">
                   <img src=<?php echo get_template_directory_uri()."/assets/thumb/wall_shelves.jpg"?> alt="Bath Tubs" class="img-responsive">
-                  <figcaption>
+                  <figcaption class"figcaption">
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
                       <a href=<?php echo get_site_url()."#"?> >View More</a>
