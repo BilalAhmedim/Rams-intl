@@ -87,7 +87,7 @@
                   <figcaption>
                     <div class="gallery__inner__caption">
                       <h5>FigCaption Header</h5>
-                      <a href=<?php echo get_site_url()."#"?> >View More</a>
+                      <a href=<?php echo get_site_url()."/products/home-decor?category_name=home-decor"?> >View More</a>
                     </div>
                   </figcaption>
                 </figure>

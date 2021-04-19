@@ -46,12 +46,12 @@
             Products
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href=<?php echo get_site_url().'/products/furniture'?>>Furniture</a>
-            <a class="dropdown-item" href=<?php echo get_site_url().'/products/lighting'?>>Lighting</a>
-            <a class="dropdown-item" href=<?php echo get_site_url().'/products/home-decor'?>>Home Decor</a>
-            <a class="dropdown-item" href=<?php echo get_site_url().'/products/kitchen-dining'?>>Kitchen & Dining</a>
-            <a class="dropdown-item" href=<?php echo get_site_url().'/products/mirrors'?>>Mirrors</a>
-            <a class="dropdown-item" href=<?php echo get_site_url().'/products/outdoor'?>>Outdoor</a>
+            <a class="dropdown-item" href=<?php echo get_site_url().'/products/furniture?category_name=furniture'?>>Furniture</a>
+            <a class="dropdown-item" href=<?php echo get_site_url().'/products/lighting?category_name=lighting'?>>Lighting</a>
+            <a class="dropdown-item" href=<?php echo get_site_url().'/products/home-decor?category_name=home-decor'?>>Home Decor</a>
+            <a class="dropdown-item" href=<?php echo get_site_url().'/products/kitchen-dining?category_name=kitchen-dining'?>>Kitchen & Dining</a>
+            <a class="dropdown-item" href=<?php echo get_site_url().'/products/mirrors?category_name=mirrors'?>>Mirrors</a>
+            <a class="dropdown-item" href=<?php echo get_site_url().'/products/outdoor?category_name=outdoor'?>>Outdoor</a>
           </div>
         </li>
         <li class="nav-item">
