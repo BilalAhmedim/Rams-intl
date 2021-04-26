@@ -7,11 +7,8 @@
 
             <div class="col-lg-6">
               <div class="footer__nav__copyright footer__divider">
-                <div class="brand">
-                  <div class="brand__graphic"></div>
-                </div>
                 <div class="brand__text text-center">
-                  <img src=<?php echo get_template_directory_uri()."/assets/logo.png"?> width="65" height="65" class="d-inline-block" alt="Rams International Logo">
+                  <img onclick="location.href='<?php echo get_site_url()?>'" src=<?php echo get_template_directory_uri()."/assets/logo.png"?> width="65" height="65" class="d-inline-block" alt="Rams International Logo">
                   <h6>&copy;All Rights Reserved</h6>
                   <h6>Rams International</h6>
                 </div>
@@ -24,9 +21,9 @@
                   <h5>Rams Pages</h5>
                 </div>
                 <ul class="text-justify footer__align--one">
-                  <li><a class="active" href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a class="active" href=<?php echo get_site_url()?>>Home</a></li>
+                  <li><a href=<?php echo get_site_url().'/about-us'?>>About</a></li>
+                  <li><a href=<?php echo get_site_url().'/contact-us'?>>Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -44,24 +41,12 @@
                 </div>
                 <ul class="text-justify footer__align--two">
 
-                  <li><a href="#">Bath Tubs</a></li>
-                  <li><a href="#">FarmHouse Sink</a>
-
-                    <ul>
-                      <li><a href="#">Single Bowl</a></li>
-                      <li><a href="#">Double Bowl</a></li>
-                    </ul>
-                  </li>
-
-                  <li><a href="#">Under Mount Sink</a>
-                    <ul>
-                      <li><a href="#">Single Bowl</a></li>
-                      <li><a href="#">Double Bowl</a></li>
-                    </ul>
-                  </li>
-
-                  <li><a href="#">Basin Sinks</a></li>
-                  <li><a href="#">Pedistal</a></li>
+                  <li><a href=<?php echo get_site_url().'/products/furniture?category_name=furniture'?>>Furniture</a></li>
+                  <li><a href=<?php echo get_site_url().'/products/lighting?category_name=lighting'?>>Lighting</a></li>
+                  <li><a href=<?php echo get_site_url().'/products/home-decor?category_name=home-decor'?>>Home Decor</a></li>
+                  <li><a href=<?php echo get_site_url().'/products/kitchen-dining?category_name=kitchen-dining'?>>Kitchen &amp; Dining</a></li>
+                  <li><a href=<?php echo get_site_url().'/products/mirrors?category_name=mirrors'?>>Mirrors</a></li>
+                  <li><a href=<?php echo get_site_url().'/products/outdoor?category_name=outdoor'?>>Outdoor</a></li>
 
                 </ul>
               </div>
