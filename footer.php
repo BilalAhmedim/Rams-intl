@@ -58,10 +58,10 @@
                   <h5>Social Pages</h5>
                 </div> 
                 <ul class="text-justify footer__align--three">
-                  <li><a href="https://www.facebook.com/ramsinternational" class="social-icons align-middle"><span class="fb">&nbsp;</span>Facebook</a></li>
-                  <li><a href="https://www.linkedin.com/company/rams-international-india/about/" class="social-icons align-middle"><span class="li">&nbsp;</span>Linkedin</a></li>
-                  <li><a href="https://twitter.com/anwer_riyaz" class="social-icons align-middle"><span class="tw">&nbsp;</span>Twitter</a></li>
-                  <li><a href="#" class="social-icons align-middle"><span class="pt">&nbsp;</span>Pinterest</a></li>
+                  <li><a href="https://www.facebook.com/ramsinternational" target="_blank" class="social-icons align-middle"><span class="fb">&nbsp;</span>Facebook</a></li>
+                  <li><a href="https://www.linkedin.com/company/rams-international-india/about/" target="_blank" class="social-icons align-middle"><span class="li">&nbsp;</span>Linkedin</a></li>
+                  <li><a href="https://twitter.com/anwer_riyaz" target="_blank" class="social-icons align-middle"><span class="tw">&nbsp;</span>Twitter</a></li>
+                  <li><a href="https://in.pinterest.com/ramsinternational/" target="_blank" class="social-icons align-middle"><span class="pt">&nbsp;</span>Pinterest</a></li>
                 </ul>
               </div>
             </div>
